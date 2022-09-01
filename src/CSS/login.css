@@ -1,0 +1,80 @@
+.loginContainer{
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background: rgb(104, 141, 141);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+   
+} 
+.loginContainer form{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.loginContainer form input:not([type="submit"]){
+  width: 40%;
+  padding: 10px;
+  border: 2px solid gray;
+  outline: none !important;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: gray;
+}
+#loginBtn{
+  width: 40%;
+  padding: 10px;
+  
+  outline: none;
+  border-radius: 25px;
+  margin-bottom: 10px;
+  font-size: 14px;
+ text-decoration: none;
+ text-transform: uppercase;
+ color: white;
+ font-size: 20px;
+ font-weight: 900;
+  cursor: pointer;
+  background-color: teal;
+  transition: 0.5s linear;
+}
+#loginBtn:hover{
+  background: transparent;
+  
+}
+
+.loginContainer form button{
+  width: 100%;
+  padding: 10px;
+  border: 2px solid gray;
+  outline: none !important;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  font-size: 14px;
+ text-decoration: none;
+ text-transform: uppercase;
+ background-color: red;
+ color: white;
+ font-size: 10px;
+ font-weight: 900;
+  cursor: pointer;
+}
+.loginContainer form span{
+ color: red;
+ font-size: 12px;
+}
+.loginFooter{
+  border: 2px solid rgb(255, 38, 38);
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  width: 50%;
+}
+ 

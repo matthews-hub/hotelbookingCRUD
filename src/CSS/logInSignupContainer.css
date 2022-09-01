@@ -1,0 +1,46 @@
+.loginSignUpContainer{
+    display: grid;
+    grid-template-columns: 70% 30% 70%;
+    width: 70%;
+    height: 500px;
+    background-color: teal;
+    padding: 0px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 5px solid teal;
+    overflow: hidden;
+    transition: 0.5s linear;
+    -webkit-box-shadow:5px 8px 20px 2px rgba(0, 0, 0, 0.47);
+    box-shadow: 4px 8px 20px 2px rgba(201, 201, 201, 0.47);
+}
+.loginSignUpContainer.active{
+    grid-template-columns: 0% 30% 70%;
+    transition: 0.5s linear;
+}
+.loginSignUpContainer .sideDiv{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url('https://images.pexels.com/photos/2564028/pexels-photo-2564028.jpeg?auto=compress&cs=tinysrgb&w=400');
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+}
+.loginSignUpContainer .sideDiv button{
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    font-weight: 900;
+    cursor: pointer;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 25px;
+    transition: 0.5s linear;
+}
+.loginSignUpContainer .sideDiv button:hover{
+    background-color: chocolate;
+    color: beige;
+}
